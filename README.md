@@ -1,6 +1,6 @@
 # altschool exam project
 DEPLOYING THE HTML PAGE ON MY AWS EC2 UBUNTU SERVER
-http://18.206.175.218
+http://3.90.184.100
 
 started my logging into my AWS console,then navigated to EC2 instances ;
 began creating a new ec2 instance,configuring it to be my ubuntu server by clicking on Ubuntu AMI images,configured the network settings,the VPC and subnets to make it hihly available and also by allowing port 80 HTTP,HTTPS,SSH on the instance;
@@ -22,5 +22,5 @@ i thorouhgly ensured the file and parameters were correctly configured and point
 ran the sudo 'nginx -t' to ensure the Nginx configuration is valid;
 then i applied changes and reloaded Nginx using 'sudo systemctl reload nginx' command;
 
-then i hit the public IP address of my EC2 ubuntu server instance which is http://18.206.175.218 and HTML page was correctly displayed;
+then i hit the public IP address of my EC2 ubuntu server instance which is http://3.90.184.100 and HTML page was correctly displayed;
 
